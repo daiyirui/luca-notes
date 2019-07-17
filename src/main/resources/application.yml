@@ -1,0 +1,15 @@
+# JavaMailSender 邮件发送的配置
+spring:
+  mail:
+    host: smtp.qq.com
+    username: ioscovers@qq.com
+    #QQ邮箱的授权码
+    password: hpoqvxdzmgdhbaih
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: UTF-8
