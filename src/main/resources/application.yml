@@ -13,3 +13,8 @@ spring:
             enable: true
             required: true
     default-encoding: UTF-8
+
+task:
+  cron:
+    tradeData: '*/5 * * * * ?'
+    weather: '00 00 7,18 * * ?'
