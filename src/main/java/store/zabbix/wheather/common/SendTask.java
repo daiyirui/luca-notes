@@ -15,7 +15,7 @@ import java.util.Map;
 
 @Component
 public class SendTask {
-    private String [] to={"fuancui@gmail.com"};
+    private String [] to={"fuancui@gmail.com","zhang7980616@163.com"};
 
     @Autowired
     private MailService mailService;

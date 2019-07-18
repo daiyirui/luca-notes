@@ -12,9 +12,14 @@ spring:
           starttls:
             enable: true
             required: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
     default-encoding: UTF-8
 
 task:
   cron:
     tradeData: '*/5 * * * * ?'
     weather: '00 00 7,18 * * ?'
+server:
+  port: 8080
