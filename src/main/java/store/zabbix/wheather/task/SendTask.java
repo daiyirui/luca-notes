@@ -1,4 +1,4 @@
-package store.zabbix.wheather.common;
+package store.zabbix.wheather.task;
 
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-
+/**
+ * description: 任务调度
+ *
+ * @author eyck.cui update: 2019-07-25 00:42
+ **/
 @Component
 public class SendTask {
     private String [] to={"fuancui@gmail.com","zhang7980616@163.com"};
@@ -23,7 +27,7 @@ public class SendTask {
     /**
      * 每天早上五点
      */
-    @Scheduled(cron = "${task.cron.weather}")
+    // @Scheduled(cron = "${task.cron.weather}")
     public void task() throws IOException {
         MailBean mailBean = new MailBean();
         mailBean.setTo(to);
