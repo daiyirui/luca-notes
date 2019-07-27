@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @EqualsAndHashCode(callSuper = true)
 @Entity(name = "re_customer")
@@ -29,5 +26,21 @@ public class Customer extends Traceability{
 
     private String address;
 
+    @Column(name = "start_time")
+    private Long startTime;
+
+    private Integer times;
+
+    private String remark;
+
+    @Column(name = "update_time")
+    private Long updateTime;
+
+    @Column(name = "room_status")
+    private Boolean roomStatus;
+
+    private Integer speator;
+
+    private String[] type;
 
 }

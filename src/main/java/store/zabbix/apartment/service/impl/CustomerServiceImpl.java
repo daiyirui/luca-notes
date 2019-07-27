@@ -38,6 +38,7 @@ public class CustomerServiceImpl implements CustomerService {
             throw new CheckException(ExceptionEnums.PAGE_VAILD);
         }
 
+
         //将参数传给这个方法就可以实现物理分页了，非常简单。
         Sort sort = new Sort(Sort.Direction.DESC, "id");
         Pageable pageable = PageRequest.of(pageNum, pageSize, sort);

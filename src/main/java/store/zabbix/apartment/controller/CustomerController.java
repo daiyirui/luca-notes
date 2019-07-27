@@ -1,10 +1,8 @@
 package store.zabbix.apartment.controller;
 
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import store.zabbix.apartment.common.PageResultBean;
+import store.zabbix.apartment.common.ResultBean;
 import store.zabbix.apartment.model.Customer;
 import store.zabbix.apartment.service.CustomerService;
 
@@ -30,4 +28,12 @@ public class CustomerController {
                                                 @PathVariable(value = "pageSize") Integer pageSize){
         return new PageResultBean<>(customerService.getCustomerList(pageNum, pageSize));
     }
+
+
+    @RequestMapping(value = "/add",method = RequestMethod.POST)
+    public ResultBean<Customer> addCustomer(@RequestBody Customer customer){
+        return new ResultBean<>(customer);
+    }
+
 }
+

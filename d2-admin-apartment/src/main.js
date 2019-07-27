@@ -1,6 +1,9 @@
 // Vue
 import Vue from 'vue'
 import App from './App'
+import ElementUI from 'element-ui'
+import D2Crud from '@d2-projects/d2-crud'
+import 'element-ui/lib/theme-chalk/index.css'
 // 核心插件
 import d2Admin from '@/plugin/d2admin'
 // store
@@ -16,6 +19,8 @@ import { frameInRoutes } from '@/router/routes'
 
 // 核心插件
 Vue.use(d2Admin)
+Vue.use(ElementUI)
+Vue.use(D2Crud)
 
 new Vue({
   router,

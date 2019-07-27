@@ -11,7 +11,7 @@ public enum ExceptionEnums implements SystemExceptionCode {
      */
     ERROR_PARAME("A11002", "参数错误"),
 
-    PAGE_VAILD("PAGE10001","无分页参数");
+    PAGE_VAILD("PAGE10001","分页参数错误");
 
     private String errorCode;
     private String errorMessage;
