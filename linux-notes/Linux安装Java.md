@@ -1,15 +1,17 @@
-## 1.安装 wget  
+# Linux安装Java  
+
+## 1. 安装 wget  
 
 已安装 `wget` 可以跳过  
 
-- Ubuntu 使用
+* Ubuntu 使用
 
 ```shell
 apt-get update
 apt-get install wget
 ```
 
-- Centos 使用
+* Centos 使用
 
 ```shell
 yum update
@@ -18,7 +20,7 @@ yum install wget
 
 ## 2.下载 java 安装包
 
-**下载地址为华为云源**  
+下载地址为华为云源  
 
 [https://repo.huaweicloud.com/java/jdk/](https://repo.huaweicloud.com/java/jdk/)
 
@@ -44,7 +46,7 @@ mv jdk1.8.0_172 /usr/local/java
 vi /etc/profile
 ```  
 
-在尾部追加    
+在尾部追加  
 
 ```bash
 export JAVA_HOME=/usr/local/java
@@ -52,7 +54,7 @@ export JRE_HOME=/usr/local/java/jre
 export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
- 
+
 让环境变量生效  
 
 ```bash
