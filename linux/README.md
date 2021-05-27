@@ -1,4 +1,0 @@
-- Linux    
-    - Linux 环境安装
-        - [Linux安装Java](./linux-install/Linux安装Java.md)
-        - [Linux安装Maven.md](./linux-install/Linux安装Maven.md)
