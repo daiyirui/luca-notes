@@ -9,6 +9,7 @@
   - [Centos7 安装 docker](./linux/soft/Centos7安装docker.md)
   - [CentOS8_安装_Docker](./linux/soft/CentOS8安装Docker.md)
   - [Linux安装docker-compose](./linux/soft/Linux安装docker-compose.md)
+  - [Linux 下 Redis 安装和部署](./linux/soft/Linux下Redis安装和部署.md)
 - 其他
   - [通过 SSH 密钥连接谷歌云 GCP](./linux/others/通过SSH密钥连接谷歌云(GCP).md)  
 
@@ -21,7 +22,9 @@
 
 - 环境安装
   - [windows 安装 consul](./windows/windows安装consul.md)
-  - [windows 安装 Docker(./windows/windows安装Docker.md)
+  - [windows 安装 Docker](./windows/windows安装docker.md)
+  - [windows 安装解压版 mysql-5.7.28-winx64](./windows/windows安装解压版mysql-5.7.28-winx64.md)
+  - [windows 配置 Node 环境](./windows/windows配置Node环境.md)
 
 ## 项目  
 
