@@ -26,6 +26,13 @@
   - [windows 安装解压版 mysql-5.7.28-winx64](./windows/windows安装解压版mysql-5.7.28-winx64.md)
   - [windows 配置 Node 环境](./windows/windows配置Node环境.md)
 
+
+## MySQL  
+
+- 异常记录
+  -[记一次物理备份恢复到生产数据库](./mysql/mysql-recovery.md)
+
+
 ## 项目  
 
 - 打包
