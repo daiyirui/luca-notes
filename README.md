@@ -29,8 +29,8 @@
 
 ## MySQL  
 
-- 异常记录
-  -[记一次物理备份恢复到生产数据库](./mysql/mysql-recovery.md)
+- 异常记录  
+  - [记一次物理备份恢复到生产数据库](./mysql/mysql-recovery.md)
 
 
 ## 项目  
