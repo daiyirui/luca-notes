@@ -10,8 +10,8 @@
   - [Linux 安装 Java](./linux/soft/Linux安装Java.md)
   - [Linux 安装 Maven](./linux/soft/Linux安装Maven.md)
   - [Linux 安装 MySQL](./linux/soft/Linux安装MySQL.md)
-  - [Centos7 安装 docker](./linux/soft/Centos7安装docker.md)
-  - [CentOS8\_安装\_Docker](./linux/soft/CentOS8安装Docker.md)
+  - [CentOS7 安装 Docker](./linux/soft/Centos7安装docker.md)
+  - [CentOS8 安装 Docker](./linux/soft/CentOS8安装Docker.md)
   - [Linux 安装 docker-compose](./linux/soft/Linux安装docker-compose.md)
   - [Linux 下 Redis 安装和部署](./linux/soft/Linux下Redis安装和部署.md)
 - 其他
