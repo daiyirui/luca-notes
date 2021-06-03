@@ -14,6 +14,7 @@
   - [CentOS8 安装 Docker](./linux/soft/CentOS8安装Docker.md)
   - [Linux 安装 docker-compose](./linux/soft/Linux安装docker-compose.md)
   - [Linux 下 Redis 安装和部署](./linux/soft/Linux下Redis安装和部署.md)
+  - [Linux 安装与配置 Nginx](./linux/soft/Linux安装与配置Nginx.md)
 - 其他
   - [通过 SSH 密钥连接谷歌云 GCP](<./linux/others/通过SSH密钥连接谷歌云(GCP).md>)
 
@@ -34,6 +35,14 @@
 
 - 异常记录
   - [记一次物理备份恢复到生产数据库](./mysql/mysql-recovery.md)
+
+## Java 基础篇  
+
+  - [Java基础篇：接口](./java-basic/Java基础篇：接口.md)
+  - [Java基础篇：多态](./java-basic/Java基础篇：多态.md)
+  - [Java基础篇：继承](./java-basic/Java基础篇：继承.md)
+  - [Java基础篇：封装](./java-basic/Java基础篇：封装.md)
+  - [List从浅入深学习](./java-basic/list.md)
 
 ## 项目
 
