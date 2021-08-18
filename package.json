@@ -1,0 +1,24 @@
+{
+  "name": "luca-notes",
+  "version": "1.0.0",
+  "description": "## 常用软件",
+  "main": "index.js",
+  "dependencies": {
+    "textlint-rule-no-todo": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuifuan/luca-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuifuan/luca-notes/issues"
+  },
+  "homepage": "https://github.com/cuifuan/luca-notes#readme"
+}
