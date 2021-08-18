@@ -114,6 +114,13 @@ $ cp ./objs/nginx /usr/local/nginx/sbin/
 
 然后把 `nginx.bak` 恢复后重启就好
 
+### 2.c compiler cc is not found
+
+缺少 `gcc-c++` 的包
+
+```bash
+yum -y install gcc-c++
+```
 ## http 重定向到 https
 
 ```bash
@@ -130,3 +137,4 @@ server {
   [....]
 }
 ```
+
